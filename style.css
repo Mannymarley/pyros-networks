@@ -5,71 +5,54 @@ body {
     padding: 0;
     line-height: 1.6;
 }
-
 header {
     background: #004080;
     color: #fff;
-    padding: 20px 10px;
+    padding: 10px;
     text-align: center;
 }
-
+.logo {
+    max-width: 160px;
+    margin-top: 5px;
+}
 .tagline {
     margin: 10px 0;
     font-style: italic;
 }
-
 nav a {
     color: #fff;
     margin: 0 15px;
     text-decoration: none;
+    font-weight: bold;
 }
-
 main {
     padding: 20px;
 }
-
-h2 {
+h2, h3 {
     color: #004080;
 }
-
-ul {
-    list-style: none;
-    padding: 0;
-}
-
-ul li {
-    background: #f4f4f4;
-    margin: 10px 0;
-    padding: 10px;
-}
-
 .clients-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     gap: 20px;
-    margin-top: 20px;
     text-align: center;
+    margin-top: 20px;
 }
-
-.client {
-    background: #f4f4f4;
-    padding: 10px;
-    border-radius: 5px;
+.clients-grid img {
+    max-width: 100px;
+    height: auto;
 }
-
 form {
     display: flex;
     flex-direction: column;
     max-width: 400px;
     margin: auto;
 }
-
 input, textarea {
     margin-bottom: 10px;
     padding: 10px;
     font-size: 16px;
 }
-
 button {
     padding: 10px;
     background: #004080;
@@ -77,11 +60,9 @@ button {
     border: none;
     cursor: pointer;
 }
-
 button:hover {
     background: #003060;
 }
-
 .call-now {
     display: block;
     margin-top: 20px;
@@ -89,7 +70,6 @@ button:hover {
     font-weight: bold;
     color: #004080;
 }
-
 footer {
     background: #222;
     color: #ccc;
