@@ -32,7 +32,7 @@ main {
   padding: 20px;
 }
 
-/* NEW GRID FOR SERVICES SECTION */
+/* UPDATED GRID FOR SERVICES SECTION */
 #services {
   display: flex;
   flex-wrap: wrap;
@@ -41,8 +41,8 @@ main {
 }
 
 #services .service {
-  flex: 1 1 45%;
-  max-width: 45%;
+  flex: 0 0 calc(50% - 40px);
+  max-width: calc(50% - 40px);
   box-sizing: border-box;
 }
 
