@@ -32,19 +32,33 @@ main {
   padding: 20px;
 }
 
-h2, h3 {
-  color: #004080;
+/* NEW GRID FOR SERVICES SECTION */
+#services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
 }
 
-.service {
-  margin-bottom: 40px;
+#services .service {
+  flex: 1 1 45%;
+  max-width: 45%;
+  box-sizing: border-box;
 }
 
 .service img {
   width: 100%;
-  max-height: 200px;
+  height: auto;
   object-fit: cover;
-  margin-bottom: 10px;
+}
+
+h2, h3 {
+  color: #004080;
+  text-align: center;
+}
+
+.service {
+  margin-bottom: 40px;
 }
 
 .clients-grid {
