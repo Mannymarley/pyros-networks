@@ -32,16 +32,29 @@ main {
   padding: 20px;
 }
 
-/* UPDATED SERVICES SECTION with Grid and Responsive */
+/* New Corrected Services Section */
 #services {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 40px;
-  justify-content: center;
+  margin-bottom: 60px;
 }
 
-#services .service {
+#services h2 {
+  text-align: center;
+  color: #004080;
+  margin-bottom: 40px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 40px;
+  justify-items: center;
+  align-items: start;
+}
+
+.services-grid .service {
+  width: 100%;
   box-sizing: border-box;
+  text-align: center;
 }
 
 .service img {
@@ -56,7 +69,12 @@ h2, h3 {
 }
 
 .service {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
+}
+
+/* Clients Section */
+#clients {
+  margin-bottom: 60px;
 }
 
 .clients-grid {
@@ -72,6 +90,11 @@ h2, h3 {
   height: auto;
 }
 
+/* Contact Section */
+#contact {
+  margin-bottom: 60px;
+}
+
 form {
   display: flex;
   flex-direction: column;
@@ -82,6 +105,7 @@ form {
 input, textarea {
   margin-bottom: 10px;
   padding: 10px;
+  font-size: 1em;
 }
 
 button {
@@ -89,6 +113,7 @@ button {
   color: white;
   padding: 10px;
   border: none;
+  cursor: pointer;
 }
 
 button:hover {
@@ -101,24 +126,28 @@ button:hover {
   margin-top: 20px;
   color: #004080;
   font-weight: bold;
+  text-decoration: none;
 }
 
+/* Footer */
 footer {
   background: #222;
   color: #ccc;
   text-align: center;
   padding: 10px;
+  font-size: 0.9em;
 }
 
+/* Flag icons (if needed later) */
 .flag {
   height: 20px;
   vertical-align: middle;
   margin-right: 10px;
 }
 
-/* Mobile Responsive - 1 service per row */
+/* Mobile Responsive Adjustments */
 @media (max-width: 768px) {
-  #services {
+  .services-grid {
     grid-template-columns: 1fr;
   }
 }
