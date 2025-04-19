@@ -32,17 +32,15 @@ main {
   padding: 20px;
 }
 
-/* UPDATED GRID FOR SERVICES SECTION */
+/* UPDATED SERVICES SECTION with Grid and Responsive */
 #services {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 40px;
+  justify-content: center;
 }
 
 #services .service {
-  flex: 0 0 calc(50% - 40px);
-  max-width: calc(50% - 40px);
   box-sizing: border-box;
 }
 
@@ -116,4 +114,11 @@ footer {
   height: 20px;
   vertical-align: middle;
   margin-right: 10px;
+}
+
+/* Mobile Responsive - 1 service per row */
+@media (max-width: 768px) {
+  #services {
+    grid-template-columns: 1fr;
+  }
 }
