@@ -33,11 +33,11 @@
         Loading…
     </iframe>
     <div style="text-align: center; margin-top: 30px;">
-        <a href="https://calendly.com/admin-kyrosnetworks" target="_blank"
+        <a href="#"
            class="cta-button"
-           onclick="gtag('event', 'click', { 'event_category': 'CTA', 'event_label': 'Calendly Booking' });">
+           onclick="Calendly.initPopupWidget({url: 'https://calendly.com/admin-kyrosnetworks'}); return false;">
            Schedule a Free Consultation
-        </a>
+       </a>
       </div>
   </section>
 </main>
@@ -45,6 +45,6 @@
 <footer>
   <p>&copy; 2025 Kyros Networks, Inc. | <a href="privacy.html">Privacy Policy</a></p>
 </footer>
-
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
 </body>
 </html>
