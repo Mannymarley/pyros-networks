@@ -1,125 +1,102 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kyros Networks, Inc</title>
+  <title>Kyros Networks, Inc.</title>
+  <meta name="description" content="Kyros Networks - Empowering Global Connectivity">
   <link rel="stylesheet" href="style.css">
-
-  <!-- SEO Meta Tags -->
-<meta name="description" content="Kyros Networks provides professional network engineering, cybersecurity, IT infrastructure, and managed IT services across Canada and the United States. Connect with us today.">
-<meta name="keywords" content="Network Engineering, IT Infrastructure, Managed IT Support, Cybersecurity, Business Networks, Toronto Networks, Atlanta Networks, IT Consulting, Enterprise Networking">
-<meta name="author" content="Kyros Networks, Inc">
-<meta name="contact" content="Email: contact@kyrosnetworks.com, Phone: +1 770-264-8001">
-
-<!-- OpenGraph Meta Tags -->
-<meta property="og:title" content="Kyros Networks, Inc">
-<meta property="og:description" content="Professional IT Networking, Cybersecurity, Infrastructure, and Support Services. Trusted by enterprises across Canada and Atlanta, USA.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://kyrosnetworks.com">
-<meta property="og:image" content="https://kyrosnetworks.com/assets/kyros-logo.png">
-  <!-- Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-KLV8FK523V"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-KLV8FK523V');
-  </script>
-
+  <link rel="icon" href="assets/kyros-logo.png" type="image/png">
 </head>
 <body>
-
 <header>
-  <img src="assets/kyros-logo.jpeg" alt="Kyros Networks Logo" class="logo">
-  <div class="header-right">
-    <a href="mailto:contact@kyrosnetworks.com">Email Us</a>
-    <a href="#services">Services</a>
-    <a href="#clients">Clients</a>
-    <a href="#contact">Contact</a>
+  <div class="header-left">
+    <a href="/"><img src="assets/kyros-logo.jpeg" alt="Kyros Networks Logo" class="logo"></a>
   </div>
+  <nav class="header-right">
+    <a href="#services">Services</a>
+    <a href="#clients">Clients & Partners</a>
+    <a href="#locations">Locations</a>
+    <a href="#contact">Contact</a>
+    <a href="#" class="cta-button"
+       onclick="Calendly.initPopupWidget({url: 'https://calendly.com/admin-kyrosnetworks'}); return false;">
+       Schedule a Free Consultation
+    </a>
+  </nav>
 </header>
 
 <main>
-
   <section id="services">
     <h2>Our Services</h2>
-
-    <div class="services-grid">
-
-      <div class="service">
-        <img src="assets/network-engineering.jpg" alt="Network Engineering">
-        <h3>Network Engineering</h3>
-        <p>We design, build, and optimize scalable and resilient network architectures, ensuring that your organization's digital backbone is ready for future growth, cloud, and hybrid environments.</p>
-      </div>
-
-      <div class="service">
-        <img src="assets/firewall-cybersecurity.jpg" alt="Firewall and Cybersecurity">
-        <h3>Firewall and Cybersecurity</h3>
-        <p>Protect your critical assets with robust firewall systems and cybersecurity frameworks tailored to mitigate risks and ensure regulatory compliance.</p>
-      </div>
-
-      <div class="service">
-        <img src="assets/it-infrastructure.jpg" alt="IT Infrastructure Design">
-        <h3>IT Infrastructure Design</h3>
-        <p>From servers to switches, Kyros Networks crafts resilient IT infrastructures that support operational efficiency and scalable growth for businesses of all sizes.</p>
-      </div>
-
-      <div class="service">
-        <img src="assets/managed-it-support.jpg" alt="Managed IT Support">
-        <h3>Managed IT Support</h3>
-        <p>Comprehensive IT support services ensuring your technology runs reliably and efficiently — from system monitoring to proactive maintenance and troubleshooting.</p>
-      </div>
-
-      <div class="service">
-        <img src="assets/business-consulting.jpg" alt="Business Consulting for Networks">
-        <h3>Business Consulting for Networks</h3>
-        <p>Strategic consulting to align your network investments with your business goals, optimize costs, and future-proof your IT environment for evolving challenges.</p>
-      </div>
-
-      <div class="service">
-        <img src="assets/helpdesk-remote-support.jpg" alt="Helpdesk Services & Remote Support">
-        <h3>Helpdesk Services & Remote Support</h3>
-        <p>Kyros Networks delivers responsive helpdesk services and remote IT support, ensuring your workforce receives fast, expert assistance whenever technical challenges arise — minimizing downtime and maximizing productivity.</p>
-      </div>
-
+    <div class="service">
+      <img src="assets/network-engineering.jpg" alt="Network Engineering">
+      <h3>Network Engineering</h3>
+      <p>We design, build, and optimize scalable and resilient network architectures, ensuring that your organization's digital backbone is ready for future growth, cloud, and hybrid environments.</p>
+    </div>
+    <div class="service">
+      <img src="assets/firewall-cybersecurity.jpg" alt="Firewall and Cybersecurity">
+      <h3>Firewall and Cybersecurity</h3>
+      <p>Our experts deliver cutting-edge firewall technologies and cybersecurity strategies to protect your infrastructure against evolving threats with proactive monitoring and rapid incident response.</p>
+    </div>
+    <div class="service">
+      <img src="assets/it-infrastructure.jpg" alt="IT Infrastructure Design">
+      <h3>IT Infrastructure Design</h3>
+      <p>We engineer high-performing IT environments, from servers and cloud setups to high-availability networks, ensuring operational agility and security.</p>
+    </div>
+    <div class="service">
+      <img src="assets/managed-it-support.jpg" alt="Managed IT Support">
+      <h3>Managed IT Support</h3>
+      <p>Our managed services deliver 24/7 support, proactive monitoring, and regular maintenance to ensure optimal system performance with minimal downtime.</p>
+    </div>
+    <div class="service">
+      <img src="assets/business-consulting.jpg" alt="Business Consulting for Networks">
+      <h3>Business Consulting for Networks</h3>
+      <p>We bridge technology and business goals by creating strategic transformation roadmaps aligned with your organization's growth and digital initiatives.</p>
     </div>
   </section>
 
   <section id="clients">
-    <h2>Our Clients & Partners</h2>
+    <h2>Clients & Partners</h2>
     <div class="clients-grid">
       <img src="assets/csse-logo.png" alt="CSSE">
-      <img src="assets/loyaltyone-logo.png" alt="LoyaltyOne">
       <img src="assets/extendicare-logo.png" alt="Extendicare">
+      <img src="assets/loyaltyone-logo.png" alt="Loyalty One">
       <img src="assets/canadian-tire-logo.png" alt="Canadian Tire">
       <img src="assets/bell-logo.png" alt="Bell">
-      <img src="assets/aphria-logo.png" alt="Aphria">
+      <img src="assets/aphira-logo.png" alt="Aphira">
       <img src="assets/igt-logo.png" alt="IGT">
-      <img src="assets/toronto-housing-logo.png" alt="Toronto Community Housing">
-      <img src="assets/techome-logo.jpeg" alt="Techome IT Training Centre">
+      <img src="assets/toronto-housing-logo.png" alt="Toronto Housing">
+      <img src="assets/techome-logo.jpeg" alt="Techome">
     </div>
   </section>
-  
-  <section id="contact">
-    <h2>Contact Us</h2>
-    <form action="mailto:contact@kyrosnetworks.com" method="POST" enctype="text/plain">
-      <input type="text" name="name" placeholder="Your Name" required>
-      <input type="email" name="email" placeholder="Your Email" required>
-      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-      <button type="submit">Send Message</button>
-    </form>
-    <a class="call-now" href="tel:+17702648001">Call Now: (770) 264-8001</a>
+
+  <section id="locations">
+    <h2>Locations We Serve</h2>
+    <p><img src="assets/canada-flag.png" class="flag"> Canada (National Coverage)</p>
+    <p><img src="assets/canada-flag.png" class="flag"> Ontario (Headquarters)</p>
+    <p><img src="assets/usa-flag.png" class="flag"> United States (Atlanta, GA Presence)</p>
   </section>
 
+  <section id="contact" style="text-align: center; padding: 60px 20px;">
+    <h2>Contact Us</h2>
+    <p>Let’s talk about your IT challenges and goals.</p>
+    <a href="#" class="cta-button"
+       onclick="Calendly.initPopupWidget({url: 'https://calendly.com/admin-kyrosnetworks'}); return false;">
+       Schedule a Free Consultation
+    </a>
+  </section>
 </main>
 
-<footer style="background-color: #f5f5f5; padding: 20px 0; text-align: center; font-size: 14px; color: #333;">
-  &copy; 2025 Kyros Networks, Inc. All rights reserved. |
-  <a href="privacy.html" style="color: #007bff; text-decoration: none;">Privacy Policy</a> |
-  <a href="mailto:contact@kyrosnetworks.com" style="color: #007bff; text-decoration: none;">Email: contact@kyrosnetworks.com</a>
+<footer>
+  <p>© 2025 Kyros Networks, Inc. | All Rights Reserved</p>
 </footer>
-  
+
+<script>
+function showThankYou() {
+  alert('Thank you for contacting Kyros Networks! We will get back to you shortly.');
+  return false;
+}
+</script>
+
 </body>
 </html>
