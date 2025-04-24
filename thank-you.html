@@ -6,6 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Thank You – Kyros Networks</title>
   <link rel="stylesheet" href="style.css">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17020358514"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'AW-17020358514');
+  </script>
   <style>
     body {
       text-align: center;
@@ -38,8 +46,17 @@
   </style>
 </head>
 <body>
-  <h1>Thank You for Booking!</h1>
-  <p>Your consultation is confirmed. We're looking forward to speaking with you soon.</p>
-  <a class="button" href="index.html">Return to Homepage</a>
+
+  <main style="text-align:center; padding:50px;">
+    <h1>Thank You for Booking!</h1>
+    <p>Your consultation is confirmed. We look forward to speaking with you soon.</p>
+    <a href="index.html" class="cta-button">Return to Homepage</a>
+  </main>
+
+  <!-- Event snippet for Contact conversion page -->
+  <script>
+    gtag('event', 'conversion', {'send_to': 'AW-17020358514/noZECO7P7rsaEPKe-LM_'});
+  </script>
+
 </body>
 </html>
