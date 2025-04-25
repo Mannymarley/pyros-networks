@@ -122,4 +122,8 @@ body {
   transition: transform 0.3s ease;
   display: block;
   }
+  .service a {
+  display: block;
+  transition: transform 0.3s ease;
+  }
   
