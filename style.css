@@ -117,4 +117,9 @@ body {
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
     transform: scale(1.05);
   } 
+  .service a:hover {
+  transform: scale(1.02);
+  transition: transform 0.3s ease;
+  display: block;
+  }
   
